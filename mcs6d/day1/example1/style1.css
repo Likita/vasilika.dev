@@ -1,0 +1,140 @@
+@font-face {
+	src: url("From Cartoon Blocks.ttf");
+	font-family: "From Cartoon Blocks";
+	font-weight: 400;
+}
+
+.fixed,
+.rubber, 
+.adaptive,
+.response {
+	text-align: center;
+	padding: 40px; 
+	margin: 20px auto;
+	border-radius: 5px 10px;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+}
+
+.fixed {
+	color: #eee;
+	background: #556737;
+	width: 1100px;
+}
+
+.rubber {
+	background: #476387;
+	color: #fff;
+	width: 80%;
+}
+
+.adaptive {
+	background: #dfaefd;
+	width: 1100px;
+}
+
+.response {
+	background: #dfef45;
+	width: 80%;
+}
+
+div {
+	font-size: 18px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+ul {
+	list-style-type: circle;
+}
+
+table {  
+	margin: 0 auto;
+	border-spacing: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #467586;
+}
+
+div > a > span {
+	color: red;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #de8439;
+}
+
+a:focus {
+	text-shadow: 0 0 2px rgba(0,0,0,0.5);
+	outline: none;
+}
+
+table tr:nth-child(odd) {
+	background: #859864;
+	color: #ddd;
+}
+
+.class2 {
+	text-align: right !important;
+}
+
+.logo {
+	text-align: center;
+	background-image: url("fluff-logo.png");
+	background-repeat: no-repeat;
+	background-position: 15px 15px;
+	font-family: "From Cartoon Blocks";
+}
+
+.logo a:hover {
+	text-decoration: none;
+	border-bottom: 1px solid #fff;
+}
+
+h1 {
+	background-color: #333;
+	border-radius: 5px;
+	padding: 15px;
+	font-size: 100px;
+}
+
+.left,
+.right {
+	float: left;
+	padding: 50px;
+}
+
+.clearfix {
+	color: #fff;
+	margin: 0 auto;
+	display: table;
+}
+
+.clearfix:after {
+	content: "";
+	float: none;
+	clear: both;
+	display: block;
+}
+
+.left {
+	background: #324780;
+}
+
+.right {
+	background: #216745;
+}
+
+@media screen and (max-width: 700px) {
+	.adaptive {
+		width: 100%;
+	}
+
+	.response {
+		width: 100%;
+	}
+}

@@ -1,0 +1,62 @@
+.homework {
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+	background: #ccc;
+	transition: all 2s;
+}
+
+.active {
+	transform: translateY(50%);
+	background: #000;
+	color: #fff;
+}
+
+.grid-item { width: 25%; }
+
+.grid-item img {
+	max-width: 100%;
+}
+
+.cola1 {
+	background: url("cola1.png");
+}
+
+.cola3 {
+	background: url("cola2.png");
+}
+
+html,
+body,
+#wrap,
+.cola1,
+.cola2,
+.cola3,
+.text {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#wrap {
+	overflow: hidden;
+}
+
+.cola1,
+.cola3 {
+	margin-top: -100px;
+	margin-left: -200px;
+}
+
+.text {
+	display: table;
+	text-align: center;
+	color: #fff;
+	font-size: 100px;
+}
+
+.text-content {
+	display: table-cell;
+	vertical-align: middle;
+}

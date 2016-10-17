@@ -1,0 +1,103 @@
+.custom-font {
+  font-family: "BeerMoney";
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+@font-face {
+  src: url("beermoney.woff");
+  font-family: "BeerMoney";
+}
+
+.sidebar {
+  background-color: pink;
+}
+
+.content {
+  background-color: green;
+}
+
+.col-md-6 {
+  border: 1px solid #454545;
+}
+
+.wrap {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.linear-grad,
+.radial-grad {
+  height: 400px;
+}
+
+.linear-grad {
+  background: linear-gradient(pink, purple);
+}
+
+.radial-grad {
+  background: radial-gradient(pink, purple);
+}
+
+.animate-block {
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+  background: url("http://333v.ru/uploads/32/328835faca35f3e05bdec8e4a9967161.jpg");
+  background-size: cover;
+  animation: dynamic 5s infinite alternate 3s;
+  position: relative;
+}
+
+@keyframes dynamic {
+  0% {
+    top: 0;
+    left: 0;
+    opacity: 1;
+  }
+  50% {
+    top: 200px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    left: 200px;
+    border: 1px solid #454544;
+    opacity: 1;
+  }
+}
+
+.rotate {
+  height: 300px;
+  width: 300px;
+  background: url("http://333v.ru/uploads/32/328835faca35f3e05bdec8e4a9967161.jpg");
+  background-size: cover;
+  transition: all 3s;
+  border-radius: 100px;
+}
+
+.rotate:hover {
+  transform: rotate(360deg) scale(0.7);
+  border-radius: 150px;
+}
+
+.big-font {
+  transition: all 2s;
+}
+
+.big-font:hover {
+  font-size: 30px;
+  color: red;
+}
+
+.rotate3d {
+  border: 2px dotted yellow;
+  width: 200px;
+  background: #446adc;
+  transition: all 3s;
+}
+
+.rotate3d:hover {
+  transform: rotateY(180deg);
+}

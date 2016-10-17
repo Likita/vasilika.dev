@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Day 9. 2</title>
+  <link rel="stylesheet" href="./css/viewScroller.min.css">
+  <style>
+    .view1 {
+      background: #454545;
+    }
+    .view2 {
+      background: #ad238f;
+    }
+    .view3 {
+      background: #923723;
+    }
+    .subview1 {
+      background: #121325;
+    }
+    .subview2 {
+      background: #abcde7;
+    }
+    .subview3 {
+      background: #acb392;
+    }
+
+    .subview {
+      font-size: 50px;
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <div class="mainbag">
+    <div vs-anchor="firstview" class="mainview view1">View 1</div>
+    <div vs-anchor="secondview" class="mainview view2">
+        <div class="subbag">
+            <div vs-anchor="firstsubview" class="subview subview1">Subview A --> </div>
+            <div vs-anchor="secondsubview" class="subview subview2">Subview B</div>
+            <div vs-anchor="thirdsubview" class="subview subview3">Subview C</div>
+        </div>
+    </div>
+    <div vs-anchor="thirdview" class="mainview view3">View 3</div>
+  </div>
+
+  <script src="./js/jquery-3.1.0.min.js"></script>
+  <script src="./js/jquery.easing.min.js"></script>
+  <script src="./js/jquery.mousewheel.min.js"></script>
+  <script src="./js/viewScroller.min.js"></script>
+  <script>
+    $(document).ready(function() {
+        $('.mainbag').viewScroller({});
+    });
+  </script>
+</body>
+</html>

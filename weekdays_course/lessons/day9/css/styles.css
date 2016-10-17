@@ -1,0 +1,10 @@
+.img-block {
+  display: inline-block;
+  width: 400px;
+  height: 250px;
+}
+
+.img-block img {
+  max-width: 100%;
+  max-height: 100%;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="../js/lib/three.min.js"></script>
+	  <script type="text/javascript" src="../js/lib/PLYLoader.js"></script>
+	  <script type="text/javascript" src="../js/lib/OBJLoader.js"></script>
+	  <script type="text/javascript" src="../js/lib/TrackballControls.js"></script>
+	  <script type="text/javascript" src="player.js"></script>
+	  <style>
+	  	#webgl-player {
+	  		width: 800px;
+	  		height: 500px;
+	  	}
+	  </style>
+	  <script type="x-shader/x-vertex" id="vshader">
+    varying vec2 vUv;
+
+    void main() {
+      vUv = uv;
+      vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
+      gl_Position = projectionMatrix * mvPosition;
+    }
+  </script>
+  <script type="x-shader/x-fragment" id="fshader">
+    uniform sampler2D u_Sampler;
+    varying vec2 vUv;
+
+    void main() {
+      gl_FragColor = texture2D(u_Sampler, vUv);
+    }
+  </script>
+</head>
+<body>
+	<div id="webgl-player"><img id="preloader" src="../css/load.gif" class="absolute-center"/></div>
+</body>
+</html>

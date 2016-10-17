@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Day 1</title>
+  <style>
+    * {
+      font-size: 30px;
+    }
+
+    .b-hello {
+      background: #5673e4;
+      margin: 20px;
+      padding: 30px;
+    }
+
+    .bright-text {
+      color: red;
+    }
+
+    a {
+      color: purple;
+      text-decoration: none;
+    }
+
+    .external-link:hover {
+      color: pink;
+      text-decoration: underline;
+    }
+
+    .external-link2 {
+      border-bottom: 1px dashed #454625;
+    }
+    
+    img {
+      max-width: 100%;
+      border-radius: 0 20px;
+    }
+
+    .pos-abs {
+      position: fixed;
+      background-color: black;
+      color: #fff;
+      top: 0;
+      right: 0;
+    }
+
+    table {
+      margin: 0 auto;
+    }
+
+    td:nth-child(odd) {
+      background-color: #455464;
+    }
+
+    td:nth-child(even) {
+      background-color: #565733;
+    }
+
+    .float-wrap > div {
+      float: left;
+    }
+
+    .float-wrap div:first-child {
+      background: #abcdfe;
+    }
+
+    .float-wrap div:last-child {
+      background: #435adc;
+    }
+
+    .float-wrap:after {
+      clear: both;
+      float: none;
+      display: block;
+      content: " ";
+    }
+
+    ul {
+      list-style-type: circle;
+    }
+
+    @media screen and (max-width: 500px) {
+      a {
+        display: none !important;
+      }
+    }
+    /*0123456789abcdef*/
+  </style>
+</head>
+<body>
+  <div class="b-hello">
+    Hello! My name is <span class="bright-text">Lika</span>.
+    Привет
+
+    <a href="http://google.com" target="_blank" class="external-link">Сторонняя ссылка</a>
+
+    <a href="http://google.com" target="_blank" class="external-link2">Сторонняя ссылка</a>
+
+    <img src="http://333v.ru/uploads/32/328835faca35f3e05bdec8e4a9967161.jpg" alt="Картинка 1">
+    <img src="img.jpg" alt="Картинка 2">
+  </div>
+  <div class="pos-abs">
+    Плавающий блок
+  </div>
+  <table>
+    <tr>
+      <td>Столбец 1</td>
+      <td>Стоблец 2.<br>Много текста</td>
+    </tr>
+  </table>
+
+  <div class="float-wrap">
+    <div>Float 1</div>
+    <div>Float 2<br>Много текста</div>
+  </div>
+
+  <ul>
+    <li>Элемент 1</li>
+    <li>Элемент 2</li>
+    <li>Элемент 3</li>
+  </ul>
+
+  <ol>
+    <li>Элемент 1</li>
+    <li>Элемент 2</li>
+    <li>Элемент 3</li>
+  </ol>
+</body>
+</html>

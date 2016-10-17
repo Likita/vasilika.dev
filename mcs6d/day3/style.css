@@ -1,0 +1,56 @@
+.grid-item { width: 25%; }
+.grid-item--width2 { width: 50%; }
+.grid-item img {
+	max-width: 100%;
+    height: auto;
+}
+
+#paralax, 
+#paralax body,
+#scene,
+.cola1,
+.cola2 {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+.cola1,
+.cola2 {
+	/*width: 2225px;
+	height: 1505px;*/
+	margin-top: -302px;
+	margin-left: -110px;
+}
+
+.cola1 {
+	background: url("cola1.png") center center;
+	background-size: cover;
+}
+
+.cola2 {
+	background: url("cola2.png") center center;
+	background-size: cover;
+}
+
+.text {
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+}
+
+.text div {
+	display: table;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+.text span {
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 100px;
+	color: #fff;
+}

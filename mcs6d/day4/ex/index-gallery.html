@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Day4. Gallery</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js"></script>
+  <script src="script-gallery.js"></script>
+  <link rel="stylesheet" href="styles-gallery.css">
+  <link href="src/css/lightbox.css" rel="stylesheet">
+</head>
+<body>
+  <button class="filter-all">Все</button>
+  <button class="filter-cat">Только кошки</button>
+  <button class="filter-dog">Только собаки</button>
+  <br>
+  <button class="sort-original">Исходный порядок</button>
+  <button class="sort-random">Случайный порядок</button>
+  <div class="grid">
+    <div class="grid-item cat">
+      <a href="cat.jpg" data-lightbox="animal">
+        <img src="cat.jpg" alt="">
+      </a>
+    </div>
+    <div class="grid-item dog">
+      <a href="dog.jpg" data-lightbox="animal">
+        <img src="dog.jpg" alt="">
+      </a>
+    </div>
+    <div class="grid-item cat">
+      <a href="cat.jpg" data-lightbox="animal">
+        <img src="cat.jpg" alt="">
+      </a>
+    </div>
+    <div class="grid-item dog">
+      <a href="dog.jpg" data-lightbox="animal">
+        <img src="dog.jpg" alt="">
+      </a>
+    </div>
+  </div>
+  <script src="src/js/lightbox.js"></script>
+</body>
+</html>

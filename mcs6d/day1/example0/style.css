@@ -1,0 +1,61 @@
+.hello-block {
+	background: #666;
+	margin: 50px;
+	text-align: center;
+	padding: 100px;
+	color: #fff;
+	text-shadow: 1px 1px 2px black, 0 0 1em #000;
+	font-size: 52px;
+	font-family: "From Cartoon Blocks"; 
+}
+
+.fixed-block,
+.rubber-block,
+.adaptive-block,
+.responsive-block {
+	margin: 10px auto;
+	padding: 20px;
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	border-radius: 10px;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+}
+
+.fixed-block {
+	width: 900px;
+	background: #ccc;
+}
+
+.rubber-block {
+	width: 80%;
+	background: #ebdcdc;
+}
+
+.adaptive-block {
+	width: 900px;
+	background: #675897;
+}
+
+.responsive-block {
+	width: 80%;
+	background: #232323;
+	color: #fff;
+}
+
+@media screen and (max-width: 650px) { 
+	.adaptive-block {
+		width: 100%;
+	}
+
+	.responsive-block {
+		width: 100%;
+	}
+}
+
+@font-face {
+	font-family: "From Cartoon Blocks"; 
+	src: url("From Cartoon Blocks.ttf");
+}
+
+
+

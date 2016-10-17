@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="isotope.pkgd.min.js"></script>
+  <script src="reel.js"></script>
+  
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link href="lightbox.css" rel="stylesheet">
+</head>
+<body>
+  <button class="filter-all">All</button>
+  <button class="filter-cat">Cat</button>
+  <button class="filter-dog">Dog</button>
+  <br>
+  <button class="sort-original">Original</button>
+  <button class="sort-random">Random</button>
+  <div class="grid">
+    <div class="grid-item cat">
+      <a href="cat.jpg" data-lightbox="animal">
+        <img src="cat.jpg" alt=""></a></div>
+    <div class="grid-item dog">
+      <a href="dog.jpg" data-lightbox="animal">
+        <img src="dog.jpg" alt=""></a></div>
+    <div class="grid-item cat">
+      <a href="cat.jpg" data-lightbox="animal">
+        <img src="cat.jpg" alt=""></a></div>
+    <div class="grid-item cat">
+      <a href="cat.jpg" data-lightbox="animal">
+        <img src="cat.jpg" alt=""></a></div>
+    <div class="grid-item dog">
+      <a href="dog.jpg" data-lightbox="animal">
+        <img src="dog.jpg" alt=""></a></div>
+    <div class="grid-item cat">
+      <a href="cat.jpg" data-lightbox="animal">
+        <img src="cat.jpg" alt=""></a></div>
+    <div class="grid-item cat">
+      <a href="cat.jpg" data-lightbox="animal">
+        <img src="cat.jpg" alt=""></a></div>
+  </div>
+
+  <div>
+    <img src="./reel/dino1.png" alt="" id="image"
+      class="reel"
+      data-images="./reel/dino#.png"
+      data-frames="24"
+      data-revolution="100">
+  </div>
+
+  <canvas id="canvas">
+    
+  </canvas>
+
+
+  <script src="lightbox.js"></script>
+</body>
+</html>

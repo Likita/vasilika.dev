@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.slider-wrap {
+  background-color: purple;
+  border-radius: 20px;
+  width: 200px;
+  height: 100px;
+  position: relative;
+}
+
+.slider {
+  position: absolute;
+  width: 100px;
+  height: 90px;
+  top: 5px;
+  left: 5px;
+  background-color: pink; 
+  border-radius: 20px;
+  transition: all 2s;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.active {
+  background-color: orange;
+  left: 95px;
+}
