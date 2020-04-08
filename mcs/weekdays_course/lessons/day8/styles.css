@@ -1,0 +1,12 @@
+.my-class1 {
+  padding: 20px;
+  display: inline-block;
+}
+
+.hover {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.submenu {
+  display: none;
+}

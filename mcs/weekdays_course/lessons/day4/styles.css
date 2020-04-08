@@ -1,0 +1,42 @@
+body {
+  font-family: 'Alexander';
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+@font-face {
+  src: url('alexander.woff');
+  font-family: 'Alexander';
+  font-weight: 300;
+}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.container div {
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.el1 {
+  background: #342425;
+}
+
+.el2 {
+  background: #628923;
+}
+
+.el3 {
+  background: #ade582;
+}
+
+.el4 {
+  background: #356283;
+}
+
+.el5 {
+  background: #eaf502;
+}

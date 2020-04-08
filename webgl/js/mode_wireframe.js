@@ -30,7 +30,7 @@ Player = {
 
     Player.light = new THREE.AmbientLight(0xffffff);
     Player.scene.add(Player.light);
-
+    
     textureLoader = new THREE.TextureLoader();
 
     textureLoader.load("./object/earth.jpg", function(texture) {
@@ -43,9 +43,9 @@ Player = {
 
     Player.renderer = new THREE.WebGLRenderer({alpha: true});
 
+    Player.renderer.setPixelRatio(window.devicePixelRatio);
     Player.renderer.setSize(Player.size.width, Player.size.height);
     Player.container.appendChild(Player.renderer.domElement);
-
     Player.controls = new THREE.TrackballControls(Player.camera, Player.container);
 
     Player.controls.rotateSpeed = 2.5

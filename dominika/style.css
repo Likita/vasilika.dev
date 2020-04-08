@@ -1,0 +1,58 @@
+.viewport-block {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+body {
+  margin: 0;
+  font-family: 'Comfortaa', cursive;
+}
+
+.viewport-block1 {
+  background-image: url("images/1.jpg");
+}
+.viewport-block2 {
+  background-image: url("images/2.jpg");
+}
+.viewport-block3 {
+  background-image: url("images/3.jpg");
+}
+.viewport-block4 {
+  background-image: url("images/5.jpg");
+}
+.viewport-block5 {
+  background-image: url("images/6.jpg");
+}
+.viewport-block6 {
+  background-image: url("images/7.jpg");
+}
+.viewport-block7 {
+  background-image: url("images/8.jpg");
+}
+.viewport-block8 {
+  background-image: url("images/9.jpg");
+}
+.viewport-block9 {
+  background-image: url("images/10.jpg");
+}
+
+.back {
+  position: fixed;
+  font-size: 50px;
+  color: #ffa900;
+  text-decoration: none;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+  background: none;
+  padding: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .viewport-block {
+    height: 200px;
+    background-attachment: scroll;
+    background-size: 100%;
+  }
+}

@@ -1,0 +1,31 @@
+body {
+  font-size: 40px;
+}
+
+div {
+  padding: 30px;
+}
+
+.position-relative {
+  background-color: #347aed;
+  position: relative;
+  top: 100px;
+}
+
+.position-absolute {
+  background-color: #748921;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.position-fixed {
+  background-color: #acdefa;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+}
+
+.wrapper-absolute {
+  position: relative;
+}

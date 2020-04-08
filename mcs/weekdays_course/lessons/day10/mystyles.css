@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+html,
+body,
+.content,
+.layer3 {
+  height: 100%;
+  width: 100%;
+}
+
+.layer3 .text {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 130px;
+  color: #ffffff;
+}
+
+.layer3 {
+  z-index: 2;
+}
+
+.layer1,
+.layer2,
+.layer3 {
+  width: 120%;
+  height: 120%;
+  margin-top: -10%;
+  margin-left: -10%;
+}
+
+.layer img {
+  max-width: 140%;
+  max-height: 140%;
+  display: inline-block;
+}
+
+.layer1 {
+  z-index: 1;
+}
