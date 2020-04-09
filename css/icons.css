@@ -8,31 +8,97 @@
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
   border-radius: 8px;
   margin-bottom: 5px;
-  transition: all .3s; }
+  transition: all 0.3s;
+}
 
-.icon + .icon {
-  margin-left: 20px; }
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li {
+  display: inline-block;
+}
+
+.contact-list li + li {
+  margin-left: 20px;
+}
+
+.icon {
+  display: inline-block;
+  background-size: 100%;
+  width: 50px;
+  height: 50px;
+  text-indent: -999em;
+  text-align: left;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  margin-bottom: 5px;
+  transition: all 0.3s;
+}
 
 .icon:hover {
   margin-top: -1px;
   margin-bottom: 1px;
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25); }
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+}
 
 .icon.facebook {
-  background: url("../imgs/facebook.svg"); }
+  background: url("../imgs/facebook.svg");
+}
 
 .icon.linkedin {
-  background: url("../imgs/linkedin.svg"); }
+  background: url("../imgs/linkedin.svg");
+}
 
 .icon.twitter {
-  background: url("../imgs/twitter.svg"); }
+  background: url("../imgs/twitter.svg");
+}
 
 .icon.mail {
-  background: url("../imgs/mail.svg"); }
+  background: url("../imgs/mail.svg");
+}
 
 .icon.github {
-  background: url("../imgs/github.svg"); }
+  background: url("../imgs/github.svg");
+}
 
 .icon.vk {
   background: url("../imgs/vk.svg");
-  background-size: 100%; }
+  background-size: 100%;
+}
+.icon + .icon {
+  margin-left: 20px;
+}
+
+.icon:hover {
+  margin-top: -1px;
+  margin-bottom: 1px;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+}
+
+.icon.facebook {
+  background: url("../imgs/facebook.svg");
+}
+
+.icon.linkedin {
+  background: url("../imgs/linkedin.svg");
+}
+
+.icon.twitter {
+  background: url("../imgs/twitter.svg");
+}
+
+.icon.mail {
+  background: url("../imgs/mail.svg");
+}
+
+.icon.github {
+  background: url("../imgs/github.svg");
+}
+
+.icon.vk {
+  background: url("../imgs/vk.svg");
+  background-size: 100%;
+}
