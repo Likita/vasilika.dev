@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hi Max</title>
+  <link rel="preload" href="elvencommonspeak.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="max.css">
+</head>
+
+<body>
+  <main>
+    <audio controls preload="auto" class="audio">
+      <source src="elves.mp3" type="audio/mpeg">
+    </audio>
+    <h1 class="page-center animate1">
+      Hi Max,
+      <br>
+      Do you like to play games?
+    </h1>
+    <div class="page-center fade-in animate-delay-6">
+      <h2>Let's play...</h2>
+      <div class="elf-btn-wrapper">
+        <button class="elf-btn play-btn">Play</button>
+      </div>
+    </div>
+    <div class="hidden">
+      <img src="mellon.jpg" alt="Mellon">
+      <br>
+      <div class="answers">
+        <div class="elf-btn-wrapper"><button class="elf-btn nofocus" data-answer="1"><img src="1.jpg" alt="1 pic"></button>
+        </div>
+        <div class="elf-btn-wrapper"><button class="elf-btn nofocus" data-answer="2"><img src="2.jpg" alt="2 pic"></button>
+        </div>
+        <div class="elf-btn-wrapper"><button class="elf-btn nofocus" data-answer="3"><img src="3.jpg" alt="3 pic"></button>
+        </div>
+        <div class="elf-btn-wrapper"><button class="elf-btn nofocus" data-answer="4"><img src="4.jpg" alt="4 pic"></button>
+        </div>
+      </div>
+      <br>
+      <div class="status">1/5</div>
+    </div>
+  </main>
+  <div class="notification hidden">
+    Wrong answer
+  </div>
+  <script>
+    document.querySelector('.play-btn').addEventListener('click', function (e) {
+      e.target.parentElement.parentElement.classList.remove('animate-delay-6');
+      e.target.parentElement.parentElement.classList.add('fade-out');
+
+      document.querySelector('.hidden').classList.add('animate3', 'animate-delay-3');
+      document.querySelector('.animate3').classList.remove('hidden');
+    });
+    document.querySelectorAll('.answers .elf-btn').forEach(function (el) {
+      el.addEventListener('click', function () {
+        el.blur();
+        if (el.dataset.answer == '2') {
+          window.location.href = './the-second-task.html';
+        } else {
+          document.querySelector('.notification').classList.remove('hidden');
+          setTimeout(function() {
+            document.querySelector('.notification').classList.add('fade-out');
+            setTimeout(function() {
+              document.querySelector('.notification').classList.add('hidden');
+              document.querySelector('.notification').classList.remove('fade-out');
+            }, 3000);
+          }, 2000);
+          document.querySelector('.answers').classList.add('fade-out');
+          setTimeout(function() {
+            document.querySelectorAll('.answers .elf-btn-wrapper').forEach(function (el, ind) {
+            orderList = shuffle(orderList);
+            el.style.order = orderList[ind];
+          });
+          document.querySelector('.answers').classList.remove('fade-out');
+          document.querySelector('.answers').classList.add('fade-in');
+          }, 5000)
+        }
+      });
+    });
+    var orderList = [1, 2, 3, 4];
+    function shuffle(o) {
+      for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+      return o;
+    };
+
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-63371694-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+</html>
