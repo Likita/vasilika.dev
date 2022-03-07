@@ -1,10 +1,9 @@
-* {
-  font-family: 'Baloo Paaji 2', sans-serif;
-  box-sizing: border-box;
+body {
+  font-family: courier, monospace;
 }
 
 h1 {
-  font-weight: 500;
+  font-weight: 600;
   color: #65247f;
   font-size: 30px;
   line-height: 1.5;
@@ -12,7 +11,7 @@ h1 {
 
 h2 {
   font-size: 26px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1;
 }
 
@@ -28,17 +27,21 @@ h1, h2, h3 {
   margin-top: 0.2rem;
 }
 
-.avatar img {
-  max-width: 400px;
-  width: 100%;
+.important {
+  font-weight: 600;
+}
+
+.avatar video {
+  width: 400px;
+  max-width: 100%;
+  border-radius: 20px;
 }
 
 header {
-  padding: 20px 20px 0;
+  padding: 20px;
 }
 
 main {
-  padding: 20px;
   max-width: 1100px;
   margin: 0 auto;
 }
@@ -46,17 +49,19 @@ main {
 .flex {
   display: flex;
   justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+  text-align: center;
 }
 
 .photo-wrapper {
-  padding: 10px;
-  width: 46%;
   text-align: center;
 }
 
 .description-wrapper {
   padding: 10px;
-  width: 54%;
+  width: 60%;
+  box-sizing: border-box;
 }
 
 .description-wrapper br {
@@ -106,6 +111,7 @@ a:hover {
 main p {
   line-height: 2;
   font-size: 22px;
+  margin: 0;
 }
 
 .contacts {
@@ -131,13 +137,17 @@ main p {
   }
 }
 
-@media only screen and (max-width: 900px) {
-  .flex {
-    flex-direction: column;
-    text-align: center;
-  }
+.description-wrapper {
+  width: 100%;
+}
 
-  .flex > div {
-    width: 100%;
+@media only screen and (min-width: 900px) {
+  .flex {
+    gap: 20px;
+    flex-direction: row;
+    text-align: justify;
+  }
+  .description-wrapper {
+    width: 66%;
   }
 }

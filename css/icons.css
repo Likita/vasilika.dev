@@ -37,6 +37,7 @@
   border-radius: 8px;
   margin-bottom: 5px;
   transition: all 0.3s;
+  background-repeat: no-repeat;
 }
 
 .icon:hover {
@@ -46,41 +47,47 @@
 }
 
 .icon.facebook {
-  background: url("../imgs/facebook.svg");
+  background-image: url("../imgs/facebook.svg");
 }
 
 .icon.linkedin {
-  background: url("../imgs/linkedin.svg");
+  background-image: url("../imgs/linkedin.svg");
 }
 
 .icon.twitter {
-  background: url("../imgs/twitter.svg");
+  background-image: url("../imgs/twitter.svg");
 }
 
 .icon.mail {
-  background: url("../imgs/mail.svg");
+  background-image: url("../imgs/mail.svg");
 }
 
 .icon.github {
-  background: url("../imgs/github.svg");
+  background-image: url("../imgs/github.svg");
 }
 
 .icon.vk {
-  background: url("../imgs/vk.svg");
+  background-image: url("../imgs/vk.svg");
   background-size: 100%;
 }
 
 .icon.yb {
-  background: url("../imgs/youtube.svg");
+  background-image: url("../imgs/youtube.svg");
   background-size: 100%;
   height: 42px;
   border-radius: 10px;
 }
 
 .icon.ig {
-  background: url("../imgs/instagram.svg");
+  background-image: url("../imgs/instagram.svg");
   background-size: 100%;
   border-radius: 15px;
+}
+
+.icon.telegram {
+  background-image: url("../imgs/telegram.svg");
+  background-size: 210%;
+  background-position: center;
 }
 
 .icon + .icon {
@@ -90,29 +97,4 @@
 .icon:hover {
   transform: translateY(2px);
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
-}
-
-.icon.facebook {
-  background: url("../imgs/facebook.svg");
-}
-
-.icon.linkedin {
-  background: url("../imgs/linkedin.svg");
-}
-
-.icon.twitter {
-  background: url("../imgs/twitter.svg");
-}
-
-.icon.mail {
-  background: url("../imgs/mail.svg");
-}
-
-.icon.github {
-  background: url("../imgs/github.svg");
-}
-
-.icon.vk {
-  background: url("../imgs/vk.svg");
-  background-size: 100%;
 }
