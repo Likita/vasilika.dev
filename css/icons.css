@@ -90,6 +90,12 @@
   background-position: center;
 }
 
+.icon.medium {
+  background-image: url("../imgs/medium.svg");
+  background-size: 100%;
+  background-position: center;
+}
+
 .icon + .icon {
   margin-left: 20px;
 }

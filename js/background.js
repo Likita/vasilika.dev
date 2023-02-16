@@ -1,9 +1,6 @@
 let canvas = document.querySelector('.background');
 canvas.height = window.innerHeight;
 canvas.width = window.innerWidth;
-canvas.style.position = "fixed";
-canvas.style.top = "0";
-canvas.style.pointerEvents = "none";
 let c = canvas.getContext('2d');
 
 window.addEventListener('resize', function () {
