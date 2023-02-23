@@ -47,14 +47,13 @@ h1, h2, h3 {
 }
 
 .avatar {
-  width: 400px;
-  height: 400px;
   margin: 0 auto;
 }
 
 .avatar img {
   border-radius: 5%;
   max-width: 100%;
+  height: auto;
 }
 
 header {

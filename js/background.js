@@ -114,11 +114,11 @@ function animate() {
 initCanvas();
 animate();
 
-for (let i = 1; i < 110; i++) {
+for (let i = 1; i < +document.body.querySelector('h1').offsetWidth / 10; i++) {
   (function (index) {
     setTimeout(function () {
-      mouse.x = document.body.querySelector('main').offsetLeft + i * 10;
-      mouse.y = document.body.querySelector('main').offsetTop;
+      mouse.x = document.body.querySelector('h1').offsetLeft + i * 10;
+      mouse.y = document.body.querySelector('h1').offsetTop + 60;
       drawCircles();
     }, i * 10);
   })(i);
