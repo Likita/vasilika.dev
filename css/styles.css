@@ -3,8 +3,6 @@ body {
 }
 
 .wrapper {
-  background: linear-gradient(to right, #73c1da, #cea1fc);
-  padding-top: 30px;
   padding-bottom: 20px;
 }
 
@@ -51,6 +49,7 @@ h1, h2, h3 {
 .avatar {
   width: 400px;
   height: 400px;
+  margin: 0 auto;
 }
 
 .avatar img {
@@ -85,10 +84,9 @@ main {
   justify-content: center;
   gap: 20px;
   flex-direction: column;
-  text-align: center;
 }
 
-.photo-wrapper {
+.intro-wrapper {
   text-align: center;
 }
 
@@ -165,10 +163,11 @@ main p {
 .centered-block {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 10px;
 }
 
 footer {
-  padding-top: 20px;
+  padding: 20px 20px 0;
   text-align: center;
   max-width: 1600px;
   margin: 0 auto;
@@ -227,13 +226,18 @@ footer {
   width: 100%;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1200px) {
   .flex {
     gap: 20px;
     flex-direction: row;
-    text-align: justify;
   }
+
   .description-wrapper {
     width: 66%;
+  }
+
+  .wrapper {
+    padding-top: 30px;
+    background: linear-gradient(to right, #73c1da, #cea1fc);
   }
 }
