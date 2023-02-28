@@ -1,0 +1,36 @@
+.project {
+  line-height: 2;
+}
+
+.technologies {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.technologies li {
+  display: inline-block;
+  padding: 0 8px;
+  background-color: rgb(222, 187, 254);
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+.technologies li + li {
+  margin-left: 5px;
+}
+
+.field {
+  color: rgb(142, 142, 142);
+}
+
+.position {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 700px) {
+  .project {
+    display: flex;
+    gap: 20px;
+  }
+}
