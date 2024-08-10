@@ -1,0 +1,530 @@
+{
+  "speaker": [
+    {
+      "date": "18.07.2024",
+      "name": "Blockchain Unraveled",
+      "place": "Berlin, Germany",
+      "author": "WeAreDevelopers Congress",
+      "url": "https://www.wearedevelopers.com/world-congress/program",
+      "language": "en"
+    },
+    {
+      "date": "21.06.2024",
+      "name": "Redefining Security: From Passwords to Biometrics and Digital Signatures",
+      "place": "Mondorf-les-Bains, Luxembourg",
+      "author": "Voxxed Days Luxembourg",
+      "url": "https://www.youtube.com/watch?v=uW6RgMAhHq4&list=PL4PrrYCV-zcmooZhSE_SSI8c2htBWkqEl&index=62",
+      "language": "en"
+    },
+    {
+      "date": "13.06.2024",
+      "name": "Redefining Security: From Passwords to Biometrics and Digital Signatures",
+      "place": "online",
+      "author": "Blockchain Community Day",
+      "url": "https://www.youtube.com/watch?v=SqQBoSrMMyg",
+      "language": "en"
+    },
+    {
+      "date": "22.04.2024",
+      "name": "Redefining Security: From Passwords to Biometrics and Digital Signatures",
+      "place": "Faro, Portugal",
+      "author": "Build with AI, GDG Faro",
+      "url": "https://gdg.community.dev/events/details/google-gdg-faro-presents-build-with-ai-by-gdg-faro/",
+      "language": "en"
+    },
+    {
+      "date": "20.04.2024",
+      "name": "Redefining Security: From Passwords to Biometrics and Digital Signatures",
+      "place": "Lagos, Portugal",
+      "author": "Build with AI/IWD 2024, GDG Lagos",
+      "url": "https://gdg.community.dev/events/details/google-gdg-lagos-presents-build-with-ai-iwd-2024-by-gdg-lagos/",
+      "language": "en"
+    },
+    {
+      "date": "14.03.2024",
+      "name": "Redefining Security: From Passwords to Biometrics and Digital Signatures",
+      "place": "Luxembourg, Luxembourg",
+      "author": "LuxembourgJS",
+      "url": "https://www.meetup.com/luxembourgjs/events/299193036/",
+      "language": "en"
+    },
+    {
+      "date": "30.03.2024",
+      "name": "Let's expand reality",
+      "place": "online",
+      "author": "IWD Bonny Island",
+      "url": "https://gdg.community.dev/events/details/google-gdg-bonny-island-presents-international-womens-day-2024-bonny-island/",
+      "language": "en"
+    },
+    {
+      "date": "16.12.2023",
+      "name": "Let's expand reality",
+      "place": "Athens, Greece",
+      "author": "DevFest UPV",
+      "url": "https://gdg.community.dev/events/details/google-gdg-athens-presents-devfest-2023-athens/",
+      "language": "en"
+    },
+    {
+      "date": "11.12.2023",
+      "name": "Let's expand reality",
+      "place": "Valencia, Spain",
+      "author": "DevFest UPV",
+      "url": "https://www.youtube.com/watch?v=G8xq_Jrab_o",
+      "language": "en"
+    },
+    {
+      "date": "29.11.2023",
+      "name": "Happy Healthy Team",
+      "place": "Lisbon, Portugal",
+      "author": "EpicHey!",
+      "url": "https://www.youtube.com/watch?v=YdzwSzNWY80&list=PLeWkoJQ6Lt4W0guu9zpir-0Lon4JWMs1C",
+      "language": "en"
+    },
+    {
+      "date": "25.11.2023",
+      "name": "Happy Healthy Team",
+      "place": "Berlin, Germany",
+      "author": "DevFest Berlin",
+      "url": "https://devfest.berlin/schedule/2023-11-25?sessionId=113",
+      "language": "en"
+    },
+    {
+      "date": "23.11.2023",
+      "name": "Happy Healthy Team",
+      "place": "Saarbrücken, Germany",
+      "author": "GDG Saarbrücken",
+      "url": "https://gdg.community.dev/events/details/google-gdg-saarbrucken-presents-happy-healthy-team/",
+      "language": "en"
+    },
+    {
+      "date": "22.11.2023",
+      "name": "Intro to Blockchain for Frontend Developers",
+      "place": "Abcoude, Netherlands",
+      "author": "[code]capi meetup",
+      "url": "https://www.meetup.com/code-capi-tech-night/events/297048177/",
+      "language": "en"
+    },
+    {
+      "date": "19.11.2023",
+      "name": "Let's expand reality",
+      "place": "Tokyo, Japan",
+      "author": "JSConf Japan",
+      "url": "https://jsconf.jp/2023/talk/vasilika-klimova-1/",
+      "language": "en"
+    },
+    {
+      "date": "04.11.2023",
+      "name": "Happy Healthy Team",
+      "place": "Hamburg, Germany",
+      "author": "DevFest Hamburg",
+      "url": "https://hamburg.devfest.de/",
+      "language": "en"
+    },
+    {
+      "date": "03.11.2023",
+      "name": "Happy Healthy Team",
+      "place": "Berlin, Germany",
+      "author": "CityJS Berlin",
+      "url": "https://berlin.cityjsconf.org/",
+      "language": "en"
+    },
+    {
+      "date": "27.10.2023",
+      "name": "Happy Healthy Team",
+      "place": "Zagreb, Croatia",
+      "author": "DevFest Croatia",
+      "url": "https://www.devfesthr.com/",
+      "language": "en"
+    },
+    {
+      "date": "05.10.2023",
+      "name": "Happy Healthy Team",
+      "place": "Luxembourg",
+      "author": "GDG Luxembourg",
+      "url": "https://gdg.community.dev/events/details/google-gdg-luxembourg-presents-happy-healthy-team/",
+      "language": "en"
+    },
+    {
+      "date": "25.05.2023",
+      "name": "Happy Healthy Team",
+      "place": "Luxembourg",
+      "author": "LuxembourgJS",
+      "url": "https://www.youtube.com/watch?v=PDf_3lHTLpc",
+      "language": "en"
+    },
+    {
+      "date": "02.03.2023",
+      "name": "How to run fast low-cost projects?",
+      "place": "online",
+      "author": "This is Tech Talks with Santosh",
+      "url": "https://youtube.com/watch?v=8PLhtFbUC6k",
+      "language": "en"
+    },
+    {
+      "date": "21.01.2021",
+      "name": "How To Break Into Web Development",
+      "place": "online",
+      "author": "SkillUp School in Luxembourg",
+      "url": "https://www.youtube.com/watch?v=BrWRaSDCp04&t=2s&ab_channel=SkillUpSchool",
+      "language": "en"
+    },
+    {
+      "date": "9.10.2016",
+      "name": "Webinar WebGL Three.js",
+      "place": "online",
+      "author": "LoftSchool",
+      "url": "https://www.youtube.com/watch?v=iP_zP1slxgk",
+      "language": "ru"
+    },
+    {
+      "date": "2015",
+      "name": "WebGL 3D player",
+      "place": "Moscow",
+      "author": "MoscowJS 21 meetup",
+      "url": "https://www.youtube.com/watch?v=0Z0vsg830QQ&list=PL95OM-7UObpHJ4er3BF4x3M7XfQ5Yvivg&index=2",
+      "slides": "https://www.slideshare.net/vasilikaklimova/webgl-for-pdf",
+      "language": "ru"
+    },
+    {
+      "date": "2015",
+      "name": "Interactive 3D graphics",
+      "place": "Moscow, Russia",
+      "author": "DevConf Conference",
+      "url": "https://www.youtube.com/watch?v=z6sySDvRLbs",
+      "language": "ru"
+    },
+    {
+      "date": "2015",
+      "name": "Interactive 3D graphics",
+      "place": "Saint Petersburg, Russia",
+      "author": "WebStandards Day Conference",
+      "url": "https://youtu.be/V7bnSOwuO4M?t=12117",
+      "slides": "https://wsd.events/2015/06/20/pres/webgl/",
+      "language": "ru"
+    },
+    {
+      "date": "2016",
+      "name": "How to be in IT trend",
+      "place": "Moscow, Russia",
+      "author": "Ladies in IT Conference",
+      "slides": "https://www.slideshare.net/vasilikaklimova/it-61386491",
+      "language": "ru"
+    },
+    {
+      "date": "2016",
+      "name": "WebGL Practical application",
+      "place": "Saint Petersburg, Russia",
+      "author": "HolyJS Conference",
+      "url": "https://www.youtube.com/watch?v=bfYzKjhdyu8&list=PL8sJahqnzh8JST_ZwTcGG1FHGgKBMcpn6&index=3",
+      "language": "ru"
+    },
+    {
+      "date": "2017",
+      "name": "CodeFest Conference",
+      "place": "Novosibirsk, Russia",
+      "author": "Artec 3D web player",
+      "url": "https://www.youtube.com/watch?v=gFsSJXyHFJQ",
+      "slides": "https://www.slideshare.net/vasilikaklimova/artec-3d-web-player",
+      "language": "ru"
+    },
+    {
+      "date": "2017",
+      "name": "Three.js basics",
+      "place": "Luxembourg, Luxembourg",
+      "author": "LuxembourgJS meetup",
+      "slides": "https://www.slideshare.net/vasilikaklimova/threejs-basics",
+      "language": "en"
+    },
+    {
+      "date": "2017",
+      "name": "WebGL Practical application",
+      "place": "Amsterdam, Netherlands",
+      "author": "AmsterdamJS Conference",
+      "slides": "https://www.slideshare.net/vasilikaklimova/webgl-practical-application",
+      "url": "https://www.youtube.com/watch?v=WLjv_j9hvEE",
+      "language": "en"
+    },
+    {
+      "date": "2018",
+      "name": "WebGL Practical application",
+      "place": "Luxembourg, Luxembourg",
+      "author": "LuxembourgJS meetup",
+      "slides": "https://www.slideshare.net/vasilikaklimova/webgl-practical-application",
+      "language": "en"
+    },
+    {
+      "date": "2018",
+      "name": "This terrible word deadline",
+      "place": "Chernivtsi, Ukraine",
+      "author": "ChernivtsiJS Conference",
+      "url": "https://www.youtube.com/watch?v=LLGUAyWZhjc",
+      "slides": "https://www.slideshare.net/vasilikaklimova/chernivtsi-js",
+      "language": "en"
+    },
+    {
+      "date": "2019",
+      "name": "Where and why people love 3D",
+      "place": "Minsk, Belarus",
+      "author": "CSS-Minsk-JS Conference",
+      "url": "https://www.youtube.com/watch?v=uWeCk6n_VJE",
+      "slides": "https://www.slideshare.net/vasilikaklimova/cssminskjs-2019",
+      "language": "en"
+    },
+    {
+      "date": "2019",
+      "name": "Dream it & Do it",
+      "place": "Minsk, Belarus",
+      "author": "WomanTech Conference",
+      "slides": "https://www.slideshare.net/vasilikaklimova/dream-it-do-it-196159138",
+      "language": "en"
+    },
+    {
+      "date": "2020",
+      "name": "Удалёнка на продлёнке",
+      "place": "online",
+      "author": "MinskJS meetup",
+      "slides": "https://www.slideshare.net/vasilikaklimova/ss-234737988",
+      "url": "https://youtu.be/JHiQVS5ZXJI?t=5687",
+      "language": "ru"
+    },
+    {
+      "date": "2020",
+      "name": "3D miracle basics",
+      "place": "online",
+      "author": "Web Zurich meetup",
+      "slides": "https://www.slideshare.net/vasilikaklimova/web-zurich-2020",
+      "url": "https://youtu.be/2cft_AEHec4?t=567",
+      "language": "en"
+    },
+    {
+      "date": "2020",
+      "name": "3D everywhere",
+      "place": "online",
+      "author": "Women TechMakers Conference, GDG Rostov-on-Don",
+      "slides": "https://www.slideshare.net/vasilikaklimova/3d-everywhere",
+      "url": "https://youtu.be/Pq45g65AXxg?t=20448",
+      "language": "ru"
+    },
+    {
+      "date": "2020",
+      "name": "Let’s dance",
+      "place": "online",
+      "author": "GDG DevParty Russia Conference",
+      "slides": "https://www.slideshare.net/vasilikaklimova/ss-236295211",
+      "url": "https://youtu.be/MZA8F479JHQ?t=1384",
+      "language": "ru"
+    },
+    {
+      "date": "2020",
+      "name": "Let’s dance",
+      "place": "online",
+      "author": "FrontendConf Live Conference",
+      "slides": "https://www.slideshare.net/vasilikaklimova/lets-dance-238659486",
+      "url": "https://www.youtube.com/watch?v=FVl4bE4ReIg",
+      "language": "ru"
+    },
+    {
+      "date": "2021",
+      "name": "Let’s expand reality",
+      "place": "online",
+      "author": "I love Frontend Conference",
+      "slides": "https://www.slideshare.net/vasilikaklimova/ss-243577253",
+      "url": "https://www.youtube.com/watch?v=uvE3N-ZQow4",
+      "language": "ru"
+    },
+    {
+      "date": "2021",
+      "name": "Let’s expand reality",
+      "place": "online",
+      "author": "JSNation Live Conference",
+      "url": "https://portal.gitnation.org/contents/lets-expand-the-reality",
+      "language": "en"
+    },
+    {
+      "date": "6.09.2022",
+      "name": "Let’s expand reality",
+      "place": "Luxembourg, Luxembourg",
+      "author": "Byborg TechTalks",
+      "url": "https://youtu.be/ZNMX6VWRfKw?t=3653y",
+      "slides": "https://www.slideshare.net/vasilikaklimova/lets-expand-the-realitypdf",
+      "language": "en"
+    },
+    {
+      "date": "18.03.2023",
+      "name": "How to run fast low-cost projects?",
+      "place": "online",
+      "author": "International Women's Day Dare to Be. Women in IT. By GDG Osh",
+      "url": "https://www.youtube.com/live/TsYDwad4xRs?feature=share&t=10636",
+      "language": "ru"
+    },
+    {
+      "date": "2021",
+      "name": "MoscowJS - Second family",
+      "place": "online",
+      "author": "MoscowJS 50",
+      "url": "https://www.youtube.com/live/TsYDwad4xRs?feature=share&t=10636",
+      "language": "ru"
+    }
+  ],
+  "interview": [
+    {
+      "date": "17.04.2020",
+      "name": "Vasilika Klimova: my path to IT",
+      "author": "Facebook Developer Circle",
+      "place": "online",
+      "url": "https://www.youtube.com/watch?v=1m2N_jDmWHQ",
+      "language": "ru"
+    },
+    {
+      "date": "3.06.2016",
+      "name": "How to be in IT trend",
+      "place": "Moscow",
+      "author": "LoftSchool",
+      "url": "https://www.youtube.com/watch?v=YLmlv9ZGjGk",
+      "language": "ru"
+    },
+    {
+      "date": "27.11.2022",
+      "name": "Vasilika Klimova — about technologies, teaching, schools, conferences and meetup’s organisation",
+      "place": "online",
+      "author": "Elena Litvinova — The art of web development",
+      "url": "https://www.youtube.com/watch?v=xy4w1CsEFV8",
+      "language": "en"
+    },
+    {
+      "date": "04.04.2023",
+      "name": "Vasilika Klimova – Boundaries of discrimination at job interviews, Luxembourg and the difficulty of job searches",
+      "place": "online",
+      "author": "Мы обречены",
+      "url": "https://www.youtube.com/watch?v=CwOm5uGFdEY",
+      "language": "ru"
+    },
+    {
+      "date": "30.11.2022",
+      "name": "Learnings from my own JS Web School with Vasilika Klimova, Business & Technical Consultant at Avaloq",
+      "place": "online",
+      "author": "WeAreDevelopers",
+      "url": "https://www.youtube.com/watch?v=SDB9z5sRwDU",
+      "language": "en"
+    },
+    {
+      "date": "10.06.2021",
+      "name": "How to Grow as a Front-End Developer: Soft Skills and Keeping Things Simple",
+      "place": "online",
+      "author": "Mindquest",
+      "url": "https://mindquest.io/blog/news/2391",
+      "language": "en"
+    },
+    {
+      "date": "25.01.2020",
+      "name": "Interview with a web developer",
+      "place": "online",
+      "author": "Ara Radio - Radioshow in Luxembourg",
+      "url": "https://www.youtube.com/watch?v=eDzDvBSezDs",
+      "language": "ru"
+    },
+    {
+      "date": "09.07.2017",
+      "name": "Vasilika Klimova about moving to Luxembourg, WebGL and feminism",
+      "place": "Moscow",
+      "author": "Frontend Weekend",
+      "url": "https://podcasts.apple.com/ru/podcast/10-%D0%B2%D0%B0%D1%81%D0%B8%D0%BB%D0%B8%D0%BA%D0%B0-%D0%BA%D0%BB%D0%B8%D0%BC%D0%BE%D0%B2%D0%B0-%D0%BF%D1%80%D0%BE-%D0%BF%D0%B5%D1%80%D0%B5%D0%B5%D0%B7%D0%B4-%D0%B2-%D0%BB%D1%8E%D0%BA%D1%81%D0%B5%D0%BC%D0%B1%D1%83%D1%80%D0%B3-webgl/id1233996390?i=1000541008868",
+      "language": "ru"
+    }
+  ],
+  "community": [
+    {
+      "date": "2015-2017",
+      "name": "MoscowJS",
+      "place": "Moscow",
+      "role": "Co-organiser",
+      "url": "https://twitter.com/moscowjs",
+      "language": "ru"
+    },
+    {
+      "date": "2015",
+      "name": "Conference Frontend Union Conf",
+      "place": "Moscow",
+      "role": "Co-organiser",
+      "url": "https://twitter.com/frontend_union",
+      "language": "ru/en"
+    },
+    {
+      "date": "2019-2023",
+      "name": "LuxembourgJS",
+      "place": "Luxembourg",
+      "role": "Co-organiser",
+      "url": "https://www.meetup.com/luxembourgjs",
+      "language": "en"
+    },
+    {
+      "date": "2023",
+      "name": "EpicHey!",
+      "place": "Portugal",
+      "role": "Curator of the Frontend section in Program Committee",
+      "url": "https://epichey.dev/team",
+      "language": "en"
+    }
+  ],
+  "articles": [
+    {
+      "date": "12.10.2022",
+      "name": "Get lost in Metaverse",
+      "place": "Dev.to",
+      "url": "https://dev.to/likita/get-lost-in-metaverse-27o",
+      "language": "en"
+    },
+    {
+      "date": "27.11.2021",
+      "name": "Games opened the door to my profession, and they ruined the lives of some of my mates\n",
+      "place": "Want2read",
+      "url": "https://want2read.ru/vzroslyiy-chas/igryi-otkryili-mne-dver-v-professiyu-a-nekotoryim-moim-rovesnikam-oni-razrushili-zhizn/?fbclid=IwAR1lvxB1g-FIRyIpgFf3pqJ5xV7lroH_8mPULXdy-SX7FcBXHewCQtc7DH0",
+      "language": "ru"
+    },
+    {
+      "date": "22.09.2017",
+      "name": "Speaker Interview: Vasilika Klimova — Frontend Developer at Artec 3D",
+      "place": "JSNation",
+      "url": "https://jsnation.medium.com/speaker-interview-vasilika-klimova-frontend-developer-at-artec-3d-cccad6269008",
+      "language": "en"
+    }
+  ],
+  "teacher": [
+    {
+      "name": "Google Women Developer Academy",
+      "place": "online",
+      "position": "Teacher of WordPress Workshop",
+      "date": "11.2023"
+    },
+    {
+      "name": "NumericALL",
+      "place": "Luxembourg",
+      "position": "Teacher of WordPress Workshop",
+      "date": "11.2021"
+    },
+    {
+      "name": "SkillUp School",
+      "place": "Luxembourg / online",
+      "position": "Founder/Teacher of Web Basics course",
+      "date": "2019-2022"
+    },
+    {
+      "name": "HTMLAcademy School",
+      "place": "online",
+      "position": "Mentor",
+      "date": "2017-2018"
+    },
+    {
+      "name": "Netology University",
+      "place": "online",
+      "position": "Teacher of JavaScript lessons",
+      "date": "2017"
+    },
+    {
+      "name": "Moscow Coding School",
+      "place": "Moscow / online",
+      "position": "Teacher of Web Basics course",
+      "date": "2015-2017"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+.roleList span {
+  display: block;
+}
+
+.underlineA {
+  text-decoration: underline var(--link-color);
+  transition: text-decoration .3s ease;
+}
+
+.underlineA:hover {
+  text-decoration-color: transparent;
+}

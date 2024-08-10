@@ -1,0 +1,47 @@
+.header {
+  /*height: 100px;*/
+  box-sizing: border-box;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.header ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.menu li {
+  text-align: center;
+}
+
+.menuIcon {
+  width: 70px;
+  height: 70px;
+}
+
+.menuA span {
+  display: inline-block;
+}
+
+.menuA span::after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  display: block;
+  background: var(--link-color);
+  transition: opacity 0.2s;
+  opacity: 0;
+}
+
+.menuA {
+  font-weight: 300;
+}
+
+.menuA:hover {
+  font-weight: 500;
+}
+
+.menuA:hover span::after {
+  opacity: 1;
+}

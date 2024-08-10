@@ -1,0 +1,144 @@
+
+.wrapper {
+  padding-bottom: 20px;
+  background: linear-gradient(to right, var(--background-start), var(--background-end));
+}
+
+.main {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  min-height: calc(100vh - 120px);
+}
+
+.main p {
+  line-height: 2;
+}
+
+.important {
+  font-weight: 600;
+}
+
+.avatar {
+  margin: 0 auto;
+}
+
+.avatar img {
+  border-radius: 5%;
+  max-width: 100%;
+  height: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.introWrapper {
+  text-align: center;
+}
+
+.descriptionWrapper {
+  font-size: 22px;
+  padding: 10px 30px;
+  width: 60%;
+  box-sizing: border-box;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.flex + .flex {
+  margin-top: 1em;
+}
+
+.contacts {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.descriptionWrapper {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1200px) {
+  .flex {
+    gap: 20px;
+    flex-direction: row;
+  }
+
+  .descriptionWrapper {
+    width: 66%;
+  }
+}
+
+.contactList {
+  list-style: none;
+}
+
+.contactList li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.contactList li + li {
+  margin-left: 20px;
+}
+
+.icon {
+  color: var(--background-start);
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.icon svg {
+  width: 40px;
+  height: 40px;
+}
+
+.icon + .icon {
+  margin-left: 20px;
+}
+
+.icon:hover {
+  transform: translateY(-5px);
+  color: var(--background-end);
+}
+
+.underlineA {
+  text-decoration: underline var(--link-color);
+  transition: text-decoration .3s ease;
+}
+
+.underlineA:hover {
+  text-decoration-color: transparent;
+}
+
+.forScreenReaders {
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0,0,0,0);
+  clip-path: inset(100%);
+}
+
+.obf {
+  display: none;
+}
