@@ -1,0 +1,15 @@
+.footer {
+  padding: 20px 20px 0;
+  text-align: center;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.underlineA {
+  text-decoration: underline transparent;
+  transition: text-decoration .3s ease;
+}
+
+.underlineA:hover {
+  text-decoration-color: var(--link-color);
+}

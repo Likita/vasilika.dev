@@ -1,0 +1,78 @@
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --foreground-selection: #cea1fc;
+  --link-color: #65247f;
+  --secondary-link-color: #57b9d9;
+
+  --background-start: #73c1da;
+  --background-end: #cea1fc;
+}
+
+body {
+  font-family: 'Roboto Slab', courier, monospace;
+  color: rgb(var(--foreground-rgb));
+  margin: 0;
+  font-weight: 300;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  background: var(--foreground-selection);
+}
+
+h1 {
+  font-weight: 600;
+  color: var(--link-color);
+  font-size: 30px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h2 {
+  /*font-size: 22px;*/
+  font-weight: 600;
+  line-height: 1;
+}
+
+h3 {
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 28px;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  margin-top: 0.2rem;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  font-weight: 400;
+  display: inline-block;
+  text-underline-offset: 5px;
+}
+
+@media only screen and (min-width: 40.0625em) {
+  h1 {
+    font-size: 2.75rem;
+  }
+
+  /* h2 {
+    font-size: 2.3125rem;
+  } */
+
+  h3 {
+    font-size: 1.6875rem;
+  }
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  pointer-events: none;
+}

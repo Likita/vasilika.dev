@@ -1,0 +1,42 @@
+{
+  "name": "vasilika-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "./node_modules/.bin/next dev",
+    "build": "./node_modules/.bin/next build",
+    "start": "./node_modules/.bin/next start",
+    "lint": "./node_modules/.bin/next lint",
+    "debug": "NODE_OPTIONS='--inspect' next dev"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@lottiefiles/react-lottie-player": "^3.5.3",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.15",
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.31",
+    "@types/react-dom": "18.0.11",
+    "classnames": "^2.3.2",
+    "eslint": "8.37.0",
+    "eslint-config-next": "13.2.4",
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "5.0.2"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^7.0.0",
+    "prettier": "2.8.7"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "trailingComma": "all",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 120,
+    "jsxSingleQuote": true
+  }
+}
