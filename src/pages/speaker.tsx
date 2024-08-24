@@ -28,7 +28,7 @@ function Speaker(): JSX.Element {
                   </a> : <span><strong>{event.name}</strong></span>
                 }
                 <br/>
-                <span>{event.author}</span>, <span>{new Date(event.date).getFullYear()}</span>
+                <span>{event.author}</span>, <span>{event.date}</span>
                 <br/>
                 {event.slides && (
                   <a href={event.slides} rel='noopener nofollow' target='_blank' className={styles.extraA}>
@@ -48,7 +48,7 @@ function Speaker(): JSX.Element {
                   <strong>{event.name}</strong>
                 </a>
                 <br />
-                <span>{event.place}</span>, <span>{new Date(event.date).getFullYear()}</span>
+                <span>{event.place}</span>, <span>{event.date}</span>
               </li>
             ))}
           </ul>
@@ -62,7 +62,7 @@ function Speaker(): JSX.Element {
                   <strong>{event.name}</strong>
                 </a>
                 <br />
-                <span>{event.author}</span>, <span>{new Date(event.date).getFullYear()}</span>
+                <span>{event.author}</span>, <span>{event.date}</span>
               </li>
             ))}
           </ul>

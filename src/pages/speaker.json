@@ -1,7 +1,7 @@
 {
   "speaker": [
     {
-      "date": "18.07.2024",
+      "date": "2024-07-18",
       "name": "Blockchain Unraveled",
       "place": "Berlin, Germany",
       "author": "WeAreDevelopers Congress",
@@ -9,7 +9,7 @@
       "language": "en"
     },
     {
-      "date": "21.06.2024",
+      "date": "2024-06-21",
       "name": "Redefining Security: From Passwords to Biometrics and Digital Signatures",
       "place": "Mondorf-les-Bains, Luxembourg",
       "author": "Voxxed Days Luxembourg",
@@ -17,7 +17,7 @@
       "language": "en"
     },
     {
-      "date": "13.06.2024",
+      "date": "2024-06-13",
       "name": "Redefining Security: From Passwords to Biometrics and Digital Signatures",
       "place": "online",
       "author": "Blockchain Community Day",
@@ -25,7 +25,7 @@
       "language": "en"
     },
     {
-      "date": "22.04.2024",
+      "date": "2024-04-22",
       "name": "Redefining Security: From Passwords to Biometrics and Digital Signatures",
       "place": "Faro, Portugal",
       "author": "Build with AI, GDG Faro",
@@ -33,7 +33,7 @@
       "language": "en"
     },
     {
-      "date": "20.04.2024",
+      "date": "2024-04-20",
       "name": "Redefining Security: From Passwords to Biometrics and Digital Signatures",
       "place": "Lagos, Portugal",
       "author": "Build with AI/IWD 2024, GDG Lagos",
@@ -41,7 +41,7 @@
       "language": "en"
     },
     {
-      "date": "14.03.2024",
+      "date": "2024-03-14",
       "name": "Redefining Security: From Passwords to Biometrics and Digital Signatures",
       "place": "Luxembourg, Luxembourg",
       "author": "LuxembourgJS",
@@ -49,7 +49,7 @@
       "language": "en"
     },
     {
-      "date": "30.03.2024",
+      "date": "2024-03-30",
       "name": "Let's expand reality",
       "place": "online",
       "author": "IWD Bonny Island",
@@ -57,15 +57,15 @@
       "language": "en"
     },
     {
-      "date": "16.12.2023",
+      "date": "2023-12-16",
       "name": "Let's expand reality",
       "place": "Athens, Greece",
-      "author": "DevFest UPV",
+      "author": "GDG Athens",
       "url": "https://gdg.community.dev/events/details/google-gdg-athens-presents-devfest-2023-athens/",
       "language": "en"
     },
     {
-      "date": "11.12.2023",
+      "date": "2023-12-11",
       "name": "Let's expand reality",
       "place": "Valencia, Spain",
       "author": "DevFest UPV",
@@ -73,7 +73,7 @@
       "language": "en"
     },
     {
-      "date": "29.11.2023",
+      "date": "2023-11-29",
       "name": "Happy Healthy Team",
       "place": "Lisbon, Portugal",
       "author": "EpicHey!",
@@ -81,7 +81,7 @@
       "language": "en"
     },
     {
-      "date": "25.11.2023",
+      "date": "2023-11-25",
       "name": "Happy Healthy Team",
       "place": "Berlin, Germany",
       "author": "DevFest Berlin",
@@ -89,7 +89,7 @@
       "language": "en"
     },
     {
-      "date": "23.11.2023",
+      "date": "2023-11-23",
       "name": "Happy Healthy Team",
       "place": "Saarbrücken, Germany",
       "author": "GDG Saarbrücken",
@@ -97,7 +97,7 @@
       "language": "en"
     },
     {
-      "date": "22.11.2023",
+      "date": "2023-11-22",
       "name": "Intro to Blockchain for Frontend Developers",
       "place": "Abcoude, Netherlands",
       "author": "[code]capi meetup",
@@ -105,7 +105,7 @@
       "language": "en"
     },
     {
-      "date": "19.11.2023",
+      "date": "2023-11-19",
       "name": "Let's expand reality",
       "place": "Tokyo, Japan",
       "author": "JSConf Japan",
@@ -113,7 +113,7 @@
       "language": "en"
     },
     {
-      "date": "04.11.2023",
+      "date": "2023-11-04",
       "name": "Happy Healthy Team",
       "place": "Hamburg, Germany",
       "author": "DevFest Hamburg",
@@ -121,7 +121,7 @@
       "language": "en"
     },
     {
-      "date": "03.11.2023",
+      "date": "2023-11-03",
       "name": "Happy Healthy Team",
       "place": "Berlin, Germany",
       "author": "CityJS Berlin",
@@ -129,7 +129,7 @@
       "language": "en"
     },
     {
-      "date": "27.10.2023",
+      "date": "2023-10-27",
       "name": "Happy Healthy Team",
       "place": "Zagreb, Croatia",
       "author": "DevFest Croatia",
@@ -137,7 +137,7 @@
       "language": "en"
     },
     {
-      "date": "05.10.2023",
+      "date": "2023-10-05",
       "name": "Happy Healthy Team",
       "place": "Luxembourg",
       "author": "GDG Luxembourg",
@@ -145,7 +145,7 @@
       "language": "en"
     },
     {
-      "date": "25.05.2023",
+      "date": "2023-05-25",
       "name": "Happy Healthy Team",
       "place": "Luxembourg",
       "author": "LuxembourgJS",
@@ -153,7 +153,7 @@
       "language": "en"
     },
     {
-      "date": "02.03.2023",
+      "date": "2023-03-02",
       "name": "How to run fast low-cost projects?",
       "place": "online",
       "author": "This is Tech Talks with Santosh",
@@ -161,7 +161,7 @@
       "language": "en"
     },
     {
-      "date": "21.01.2021",
+      "date": "2021-01-21",
       "name": "How To Break Into Web Development",
       "place": "online",
       "author": "SkillUp School in Luxembourg",
@@ -169,7 +169,7 @@
       "language": "en"
     },
     {
-      "date": "9.10.2016",
+      "date": "2016-10-09",
       "name": "Webinar WebGL Three.js",
       "place": "online",
       "author": "LoftSchool",
@@ -341,7 +341,7 @@
       "language": "en"
     },
     {
-      "date": "6.09.2022",
+      "date": "2022-09-06",
       "name": "Let’s expand reality",
       "place": "Luxembourg, Luxembourg",
       "author": "Byborg TechTalks",
@@ -350,7 +350,7 @@
       "language": "en"
     },
     {
-      "date": "18.03.2023",
+      "date": "2023-03-18",
       "name": "How to run fast low-cost projects?",
       "place": "online",
       "author": "International Women's Day Dare to Be. Women in IT. By GDG Osh",
@@ -368,7 +368,7 @@
   ],
   "interview": [
     {
-      "date": "17.04.2020",
+      "date": "2020-04-17",
       "name": "Vasilika Klimova: my path to IT",
       "author": "Facebook Developer Circle",
       "place": "online",
@@ -376,7 +376,7 @@
       "language": "ru"
     },
     {
-      "date": "3.06.2016",
+      "date": "2016-06-03",
       "name": "How to be in IT trend",
       "place": "Moscow",
       "author": "LoftSchool",
@@ -384,7 +384,7 @@
       "language": "ru"
     },
     {
-      "date": "27.11.2022",
+      "date": "2022-11-27",
       "name": "Vasilika Klimova — about technologies, teaching, schools, conferences and meetup’s organisation",
       "place": "online",
       "author": "Elena Litvinova — The art of web development",
@@ -392,7 +392,7 @@
       "language": "en"
     },
     {
-      "date": "04.04.2023",
+      "date": "2023-04-04",
       "name": "Vasilika Klimova – Boundaries of discrimination at job interviews, Luxembourg and the difficulty of job searches",
       "place": "online",
       "author": "Мы обречены",
@@ -400,7 +400,7 @@
       "language": "ru"
     },
     {
-      "date": "30.11.2022",
+      "date": "2022-11-30",
       "name": "Learnings from my own JS Web School with Vasilika Klimova, Business & Technical Consultant at Avaloq",
       "place": "online",
       "author": "WeAreDevelopers",
@@ -408,7 +408,7 @@
       "language": "en"
     },
     {
-      "date": "10.06.2021",
+      "date": "2021-06-10",
       "name": "How to Grow as a Front-End Developer: Soft Skills and Keeping Things Simple",
       "place": "online",
       "author": "Mindquest",
@@ -416,7 +416,7 @@
       "language": "en"
     },
     {
-      "date": "25.01.2020",
+      "date": "2020-01-25",
       "name": "Interview with a web developer",
       "place": "online",
       "author": "Ara Radio - Radioshow in Luxembourg",
@@ -424,7 +424,7 @@
       "language": "ru"
     },
     {
-      "date": "09.07.2017",
+      "date": "2017-07-09",
       "name": "Vasilika Klimova about moving to Luxembourg, WebGL and feminism",
       "place": "Moscow",
       "author": "Frontend Weekend",
@@ -468,21 +468,21 @@
   ],
   "articles": [
     {
-      "date": "12.10.2022",
+      "date": "2022-10-12",
       "name": "Get lost in Metaverse",
       "place": "Dev.to",
       "url": "https://dev.to/likita/get-lost-in-metaverse-27o",
       "language": "en"
     },
     {
-      "date": "27.11.2021",
+      "date": "2021-11-27",
       "name": "Games opened the door to my profession, and they ruined the lives of some of my mates\n",
       "place": "Want2read",
       "url": "https://want2read.ru/vzroslyiy-chas/igryi-otkryili-mne-dver-v-professiyu-a-nekotoryim-moim-rovesnikam-oni-razrushili-zhizn/?fbclid=IwAR1lvxB1g-FIRyIpgFf3pqJ5xV7lroH_8mPULXdy-SX7FcBXHewCQtc7DH0",
       "language": "ru"
     },
     {
-      "date": "22.09.2017",
+      "date": "2017-09-22",
       "name": "Speaker Interview: Vasilika Klimova — Frontend Developer at Artec 3D",
       "place": "JSNation",
       "url": "https://jsnation.medium.com/speaker-interview-vasilika-klimova-frontend-developer-at-artec-3d-cccad6269008",
@@ -493,7 +493,7 @@
     {
       "name": "Google Women Developer Academy",
       "place": "online",
-      "position": "Teacher of WordPress Workshop",
+      "position": "Mentor, 15 sessions",
       "date": "11.2023"
     },
     {
