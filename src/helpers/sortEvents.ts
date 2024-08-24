@@ -1,5 +1,4 @@
-export const sortEvents = (arr: any[]) => arr.map((e: any) => {
-  return { ...e, date: e.date.replace(/(\d+[.])(\d+[.])/, '$2$1') }
+export const sortEvents = (arr: any[]) => arr.sort((a, b) => +(new Date(b.date)) - +(new Date(a.date))).map((e: any) => {
+  return { ...e, date: new Date(e.date).getFullYear() }
 })
-  .sort((a, b) => +(new Date(b.date)) - +(new Date(a.date)))
 
