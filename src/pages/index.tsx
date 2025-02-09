@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import { withLayout } from '@/layout/Layout'
 import Link from 'next/link'
+import { CV_URL } from '@/helpers/constants'
 function Home(): JSX.Element {
   return (
     <>
@@ -29,82 +30,65 @@ function Home(): JSX.Element {
       </Head>
       <>
         <p>
-          Hi, I am a <span className={styles.important}>Software Engineer</span> with a primary focus on the{' '}
-          <span className={styles.important}>Web</span> 👩🏻‍💻. Shortly speaking, I can create the most fabulous websites 😎
+          Hi, I am an <span className={styles.important}>Engineering Manager</span> Engineering Manager with 14 years of experience in
+          software development, team leadership, and product delivery. Expertise in web technologies and developer
+          relations. Led cross-functional teams, delivered 20+ web projects from scratch, optimized development
+          processes, and minimized technical debt. <span className={styles.important}>Public speaker</span> (50+ talks), event organizer (60+ events), Microsoft
+          MVP, Google Developer Expert, Professional Scrum <span className={styles.important}>Product Owner II</span> certified. Passionate about mentoring and
+          team collaboration. PMP certification in progress.
         </p>
-        <h3>University</h3>
-        <p>
-          At University I studied C and C++ languages, and in 2012, I got a{' '}
-          <span className={styles.important}>Master&apos;s Degree</span> with honors in Engineering and Technology in
-          the field of Information Technology and Computer Science.
-        </p>
+
         <h3>Career</h3>
         <p>
-          I started my career as a <span className={styles.important}>Full Stack Developer (PHP, JavaScript, CMS)</span>{' '}
-          in 2010. At Artec3D company, I became a <span className={styles.important}>Frontend Team Lead</span> and
-          learned how to work with amazing tasks in the 3D world (WebGL,{' '}
-          <span className={styles.important}>Three.js</span>).
-          {/* <!-- You can check out more about <a href="./projects.html">my role in various projects at this link</a>. --> */}
+          My journey started as a <span className={styles.important}>Full Stack Developer</span> in 2010. Over time, I transitioned into leadership roles, including <span className={styles.important}>Engineering Manager</span> at Artec3D, where I led a frontend team working on cutting-edge 3D applications (WebGL, <span className={styles.important}>Three.js</span>).
         </p>
-        <h3>Speaker</h3>
         <p>
-          I always like to share my knowledge with others; therefore, since 2015, I have been a{' '}
-          <Link href='/speaker'>Speaker</Link> at different IT meetups and conferences.
+          Later, I founded my own web development agency, where I took on the role of a <span className={styles.important}>Technical Project Manager</span>, overseeing the full lifecycle of digital projects, leading cross-functional teams, and aligning business objectives with technical execution.
+          Throughout my career, I have built and scaled development teams, conducted 100+ engineering interviews, and mentored professionals to foster high-performing environments. I am passionate about strategic planning, Agile methodologies, and technical excellence.
         </p>
-        <h3>Teacher</h3>
+
+        <h3>Public Speaking & Community</h3>
         <p>
-          I have been working as a freelance Teacher at different offline/online IT schools. In 2019 I founded{' '}
-          <a
-            href='https://www.facebook.com/skilluplu'
-            target='_blank'
-            rel='noopener nofollow'
-            className={styles.underlineA}
-          >
-            SkillUp Web School
-          </a>{' '}
-          in Luxembourg.
-          <br />
-          At{' '}
+          I love sharing knowledge and inspiring others. Since 2015, I have been a <Link href='/speaker'>Speaker</Link> at international IT conferences and meetups, delivering over 50 talks on topics ranging from Web Development and Security to Agile Leadership and Blockchain.
+        </p>
+
+        <h3>Mentorship & Teaching</h3>
+        <p>
+          I have worked as a freelance instructor, teaching web technologies to aspiring developers. In 2019, I founded{' '}
           <a href='https://skillup.lu' target='_blank' className={styles.underlineA}>
             SkillUp School
-          </a>
-          , I help people without any IT background to be involved in our industry. I&apos;d love to inspire you to join
-          the IT industry! I have a Discord channel where I share Tech news and mentor people 👩🏻‍🏫.
+          </a>, helping professionals transition into IT and advance their careers.
         </p>
-        <h3>Entrepreneur</h3>
+
+        <h3>Entrepreneurship</h3>
         <p>
-          In 2019 I also founded{' '}
+          As the founder of{' '}
           <a className={styles.underlineA} href='https://cute-geek.com' target='_blank'>
-            Cute Geek IT Agency
-          </a>
-          . At Cute Geek, we do different web projects for clients (
-          <span className={styles.important}>
-            React, Node.js, PHP, Next.js, SQL, 3D/Three.js, e-commerce, WordPress
-          </span>
-          ).
+            Cute Geek</a> Web Development Agency, I have successfully led <span className={styles.important}>10+</span> digital transformation projects for clients, working with technologies like{' '}
+          <span className={styles.important}>React, Node.js, Next.js, Three.js,</span> SQL, PHP, Tilda, WordPress and others.
         </p>
-        <h3>Achievements</h3>
+
+        <h3>Education</h3>
         <p>
-          In 2022 I was proud to become a{' '}
-          <a
-            className={styles.underlineA}
-            href='https://g.dev/vasilika'
-            target='_blank'
-            rel='noopener nofollow'
-          >
-            Google Developer Expert
-          </a> in Web
-          .
-          <br />I love to be self-organized and I believe I am good in management. I passed{' '}
-          Professional Advanced Scrum Product Owner <span className={styles.important}>PSPO II</span> and Professional Agile Leadership <span className={styles.important}>PAL&nbsp;I</span>{' '}
-          exams (<span className={styles.important}>Agile, Scrum</span>).
+          I hold a <span className={styles.important}>Master’s Degree</span> with honors in Engineering and Technology in the field of Information Technology and Computer Science. My academic background gave me a strong foundation in software engineering and system architecture.
+          I also hold advanced certifications in Agile and Product Management, including{' '}
+          <span className={styles.important}>PSPO II</span> (Professional Scrum Product Owner) and{' '}
+          <span className={styles.important}>PAL I</span> (Professional Agile Leadership).
+          And I finished plenty of courses, PMP course is in progress.
         </p>
-        <h3>Right to work</h3>
+
+        <h3>Certifications & Achievements</h3>
         <p>
-          I can work as an employee or as a contractor. I have been living in Luxembourg since 2017 and I have
-          got <span className={styles.important}>Luxembourgish citizenship</span>. I prefer to work{' '}
+          I am a <a className={styles.underlineA} href='https://g.dev/vasilika' target='_blank' rel='noopener nofollow'>
+            Google Developer Expert</a> and a <a className={styles.underlineA} href='https://mvp.microsoft.com/en-US/MVP/profile/3cb85a8c-b6c0-4622-9a84-f61c0a0c5ba1' target='_blank' rel='noopener nofollow'>Microsoft MVP</a>.
+        </p>
+
+
+        <h3>Work Authorization</h3>
+        <p>
+          I am a <span className={styles.important}>Luxembourgish citizen</span> and open to opportunities as an employee or contractor. I prefer to work{' '}
           <span className={styles.important}>fully remote</span>.{' '}
-          <a className={styles.underlineA} href='/Vasilika Klimova – Developer Relations Manager.pdf' download>
+          <a className={styles.underlineA} href={CV_URL} download>
             My CV
           </a>
         </p>

@@ -7,7 +7,7 @@ import { sortEvents } from '@/helpers/sortEvents'
 function Speaker(): JSX.Element {
   const speaker = sortEvents(events.speaker)
   const articles = sortEvents(events.articles)
-  const interview = sortEvents(events.interview)
+  const interview = sortEvents(events.podcasts)
 
   return (
     <>
@@ -18,7 +18,7 @@ function Speaker(): JSX.Element {
       <>
         <section>
           <h2>Speaker</h2>
-          <p>I was a speaker at various meetups and conferences:</p>
+          <p>I was a speaker at various meetups and conferences (50+):</p>
           <ul className={styles.eventList}>
             {speaker.map((event, index) => (
               <li key={`speaker-${index}`}>
@@ -54,7 +54,7 @@ function Speaker(): JSX.Element {
           </ul>
         </section>
         <section>
-          <h2>Interviews</h2>
+          <h2>Podcasts</h2>
           <ul className={styles.eventList}>
             {interview.map((event, index) => (
               <li key={`interview-${index}`}>
