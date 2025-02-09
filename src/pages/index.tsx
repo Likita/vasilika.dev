@@ -30,7 +30,7 @@ function Home(): JSX.Element {
       </Head>
       <>
         <p>
-          Hi, I am an <span className={styles.important}>Engineering Manager</span> Engineering Manager with 14 years of experience in
+          Hi, I am an <span className={styles.important}>Engineering Manager</span> with 14 years of experience in
           software development, team leadership, and product delivery. Expertise in web technologies and developer
           relations. Led cross-functional teams, delivered 20+ web projects from scratch, optimized development
           processes, and minimized technical debt. <span className={styles.important}>Public speaker</span> (50+ talks), event organizer (60+ events), Microsoft
